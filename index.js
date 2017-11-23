@@ -3,10 +3,14 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
-  var arr = [cat, dog, rabbit, horse]
+  var arr = ['cat', 'dog', 'rabbit', 'horse']
   arr.forEach(callback(arr))
   return arr
 }
+
+arr.forEach(function callback(currentValue, index, array) {
+    //your iterator
+}[, thisArg])
 
 function doToArray(array, callback) {
   array.forEach(callback)
