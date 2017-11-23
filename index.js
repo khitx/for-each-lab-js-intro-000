@@ -4,7 +4,7 @@ function iterativeLog(array) {
 
 function iterate(callback) {
   var arr = ['cat', 'dog', 'rabbit', 'horse']
-  arr.forEach(callback(arr))
+  arr.forEach(callback)
   return arr
 }
 
